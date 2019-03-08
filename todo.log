@@ -1,0 +1,29 @@
+// Plan ahead
+
+// TO-DO List
+
+/*
+
+=======UI Module=======
+Get input values
+Add the new item to the UI
+Update the UI
+
+======Data Module======
+Calculate budget
+Add the new item to our data structure 
+
+===Controller Module===
+Add event handler
+
+
+
+
+
+
+*/
+
+// Note: Modules. Important aspect of any robust app architecturel
+// - keep the units of code for a project both cleanly separated and organized
+// - encapsulate some data into privacy and expose other data publicly.
+
