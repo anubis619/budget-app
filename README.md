@@ -1,2 +1,2 @@
 # budget-app
-A JS build budget app
+A JS built budget app
