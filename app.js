@@ -302,6 +302,10 @@ var UIController = (function(){
             document.querySelector(DOMStrings.buttonPress).classList.toggle('red');
         },
 
+        setInitialValue: function(){
+            document.querySelector(DOMStrings.inputType).value = 'inc';
+        },
+
         getDomStrings: function(){
             return DOMStrings;
         }
@@ -358,8 +362,6 @@ var controller = (function(budgetCtrl, UICtrl){
     
 
     var controlAddItem = function(){
-        // TODO - 
-
         // Var declaration
         var input, newItem;
         // 1. Get the filed input data
@@ -410,6 +412,7 @@ var controller = (function(budgetCtrl, UICtrl){
     return{
         init: function(){
             console.log('App has started.');
+            UICtrl.setInitialValue();
             UICtrl.displayMonth();
             UICtrl.displayBudget({
                 budget: 0,
